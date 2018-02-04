@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adibf.studycase.MainActivity">
+
+    <TextView
+        android:id="@+id/text_makan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:text="@string/text_makan" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_makan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nasi_uduk" />
+
+    <EditText
+        android:id="@+id/edit_jumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_nama"
+        android:layout_alignStart="@+id/edit_nama"
+        android:layout_below="@+id/edit_nama"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/button_eatbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_jumlah"
+        android:layout_alignStart="@+id/edit_jumlah"
+        android:layout_below="@+id/edit_jumlah"
+        android:layout_marginTop="35dp"
+        android:text="@string/button_eatbus"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="launchSecondActivity"/>
+
+    <Button
+        android:id="@+id/button_abnormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_jumlah"
+        android:layout_alignRight="@+id/edit_jumlah"
+        android:layout_alignTop="@+id/button_eatbus"
+        android:text="@string/button_abnormal"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="LaunchSecondActivity2"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StudyCase</string>
+    <string name="text_makan">Makan Malam</string>
+    <string name="edit_makan">Nama Makanan</string>
+    <string name="button_eatbus">Eatbus</string>
+    <string name="button_abnormal">Abnormal</string>
+    <string name="masukkan_nama_menu">Masukkan Nama Menu</string>
+    <string name="masukkan_jumlah_porsi">Masukkan jumlah porsi</string>
+    <string name="edit_nama">Masukkan nama menu</string>
+    <string name="edit_jumlah">Masukkan jumlah porsi</string>
+    <string name="nasi_uduk">Nasi Uduk</string>
+    <string name="_2">2</string>
+</resources>
